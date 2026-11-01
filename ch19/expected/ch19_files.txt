@@ -1,0 +1,28 @@
+*SENSE:Maximize
+NAME          marche_plan
+ROWS
+ N  total_profit
+ L  budget
+COLUMNS
+    MARK      'MARKER'                 'INTORG'
+    cookie    budget     3.000000000000e2
+    cookie    total_profit  -2.000000000000e2
+    MARK      'MARKER'                 'INTEND'
+    MARK      'MARKER'                 'INTORG'
+    muffin    budget     5.000000000000e2
+    muffin    total_profit  -3.500000000000e2
+    MARK      'MARKER'                 'INTEND'
+    MARK      'MARKER'                 'INTORG'
+    cake      budget     8.000000000000e2
+    cake      total_profit  -6.000000000000e2
+    MARK      'MARKER'                 'INTEND'
+RHS
+    RHS       budget     8.500000000000e3
+BOUNDS
+ UP BND       cookie     1.000000000000e1
+ UP BND       muffin     8.000000000000e0
+ UP BND       cake       5.000000000000e0
+ENDATA
+
+HiGHS Optimal 6100.0 {'cookie': 5.0, 'muffin': 6.0, 'cake': 5.0}
+CBC Optimal 6100.0 {'cookie': 5.0, 'muffin': 6.0, 'cake': 5.0}

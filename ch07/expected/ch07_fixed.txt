@@ -1,0 +1,3 @@
+状態: Optimal
+利益: 20,750 円
+{'jam': 19, 'syrup': 13, 'umeboshi': 14}

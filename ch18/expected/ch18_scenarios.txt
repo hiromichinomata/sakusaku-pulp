@@ -1,0 +1,15 @@
+ scenario  status  profit  vs_base  jam  syrup  umeboshi  dressing
+       基本 Optimal  470300        0   30     77        20       126
+ 原材料費+20% Optimal  369900  -100400   30     77        20       126
+   需要-20% Optimal  466000    -4300   30     80        20       120
+   包装50時間 Optimal  485000    14700   30    100        20       108
+ラインB 30時間 Optimal  415000   -55300   30    100        20        68
+
+ scenario                                                             binding
+       基本                              line_B res_pack_h min_jam min_umeboshi
+ 原材料費+20%                              line_B res_pack_h min_jam min_umeboshi
+   需要-20% line_A res_pack_h min_jam demand_syrup min_umeboshi demand_dressing
+   包装50時間                     line_A line_B min_jam demand_syrup min_umeboshi
+ラインB 30時間                     line_A line_B min_jam demand_syrup min_umeboshi
+
+保存しました: ['scenarios.csv', 'stats_00.json', 'stats_01.json', 'stats_02.json', 'stats_03.json', 'stats_04.json']

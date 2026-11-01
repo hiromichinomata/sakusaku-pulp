@@ -1,0 +1,12 @@
+product,resource,amount
+jam,ume_kg,6
+jam,sugar_kg,4
+jam,pack_h,0.2
+syrup,ume_kg,5
+syrup,sugar_kg,5
+syrup,pack_h,0.2
+umeboshi,ume_kg,10
+umeboshi,pack_h,0.3
+dressing,ume_kg,2
+dressing,sugar_kg,1
+dressing,pack_h,0.1

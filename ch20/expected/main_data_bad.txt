@@ -1,0 +1,5 @@
+<日時> INFO PuLP 4.0.1 / Python 3.13.3 / ソルバー HiGHS
+<日時> INFO 入力を読み込みます: data_bad
+<日時> ERROR 入力データに問題があります:
+products.csv: 空欄がある（[3] 行目）
+products.csv: マイナスの値がある（[5] 行目）

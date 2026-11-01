@@ -1,0 +1,5 @@
+ume_g     を外すと → Infeasible
+sugar_g   を外すと → Infeasible
+work_min  を外すと → Infeasible
+jars      を外すと → Optimal
+上下限       を外すと → Optimal

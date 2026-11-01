@@ -1,0 +1,7 @@
+<日時> INFO PuLP 4.0.1 / Python 3.13.3 / ソルバー HiGHS
+<日時> INFO 入力を読み込みます: data
+<日時> INFO 商品 4 件・ライン 2 本・資源 3 種類
+<日時> INFO モデル: 変数 7 個・制約 13 本
+<日時> INFO 解きました: Optimal / 利益 470,300 円 / <秒> 秒
+<日時> INFO 検証: OK
+<日時> INFO 保存しました: summary.csv, plan.csv, resources.csv, report.xlsx

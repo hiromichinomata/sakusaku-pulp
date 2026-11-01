@@ -1,0 +1,17 @@
+利益: 470,300 円
+ product line  cases
+   syrup    A     77
+umeboshi    A     20
+dressing    A      2
+     jam    B     30
+dressing    B    124
+ product  label  demand  min  cases
+     jam    ジャム     120   30     30
+   syrup   シロップ     100    0     77
+umeboshi    梅干し      60   20     20
+dressing ドレッシング     150    0    126
+resource  label  capacity   used    rate
+  ume_kg  梅(kg)      1500 1017.0 0.67800
+sugar_kg 砂糖(kg)       800  631.0 0.78875
+  pack_h 包装(時間)        40   40.0 1.00000
+保存しました: ['plan.csv', 'plan.xlsx']

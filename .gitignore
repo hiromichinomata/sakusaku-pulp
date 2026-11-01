@@ -1,0 +1,16 @@
+# サンプルコードを実行したときにできるファイル
+output/
+run.log
+report.md
+roster.csv
+roster.xlsx
+*.lp
+*.mps
+result.json
+.pytest_cache/
+
+# Python・OS
+__pycache__/
+.venv/
+venv/
+.DS_Store

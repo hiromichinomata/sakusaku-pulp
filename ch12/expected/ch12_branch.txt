@@ -1,0 +1,13 @@
+#1 上限 6133.3 (cookie=1.66667, muffin=8, cake=5) → cookie で分ける
+  #2 整数解 6000 (cookie=1, muffin=8, cake=5) → 暫定解を更新
+  #3 上限 6130.0 (cookie=2, muffin=7.8, cake=5) → muffin で分ける
+    #4 上限 6116.7 (cookie=3.33333, muffin=7, cake=5) → cookie で分ける
+      #5 整数解 6050 (cookie=3, muffin=7, cake=5) → 暫定解を更新
+      #6 上限 6110.0 (cookie=4, muffin=6.6, cake=5) → muffin で分ける
+        #7 整数解 6100 (cookie=5, muffin=6, cake=5) → 暫定解を更新
+        #8 上限 6100.0 ≦ 暫定 6100.0 → 打ち切り
+    #9 上限 6125.0 (cookie=2, muffin=8, cake=4.875) → cake で分ける
+      #10 上限 6066.7 ≦ 暫定 6100.0 → 打ち切り
+      #11 解なし → 打ち切り
+
+最適解: 6100 円 {'cookie': 5.0, 'muffin': 6.0, 'cake': 5.0} / 調べた問題の数: 11

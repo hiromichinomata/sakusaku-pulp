@@ -1,0 +1,9 @@
+# 実行の設定（コードを書き換えずに変えたいもの）
+[solver]
+name = "HiGHS"        # HiGHS / CBC / GLPK / SCIP
+time_limit = 60       # 秒
+gap_rel = 0.0001      # 許容する相対ギャップ（0.01%）
+msg = false
+
+[output]
+folder = "output"

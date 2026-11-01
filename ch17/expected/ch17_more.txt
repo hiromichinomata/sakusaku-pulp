@@ -1,0 +1,8 @@
+利益: 708,000 円
+ product  label  demand  min  cases
+     jam    ジャム     120   30     30
+   syrup   シロップ     100    0     45
+umeboshi    梅干し      60   20     20
+dressing ドレッシング     150    0      0
+   jelly   梅ゼリー     200    0    115
+     tea  梅こんぶ茶     150    0    150

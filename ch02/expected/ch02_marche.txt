@@ -1,0 +1,5 @@
+状態: Optimal
+利益: 6100.0
+cookie 5.0
+muffin 6.0
+cake 5.0

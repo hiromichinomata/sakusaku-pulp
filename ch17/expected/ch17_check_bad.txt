@@ -1,0 +1,2 @@
+- products.csv: 空欄がある（[3] 行目）
+- products.csv: マイナスの値がある（[5] 行目）
